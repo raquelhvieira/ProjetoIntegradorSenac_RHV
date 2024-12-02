@@ -11,8 +11,15 @@ public class EasyAudioController {
         return "index"; //entre "" coloco o nome da página que quero, não precisa o .html pq ele reconhece
     }
     
+    // para direcionar para pág cadastro pct
     @GetMapping("/cadastropaciente")
     public String mostraCadastroPaciente(){
         return "cadastroPaciente";    
+    }
+    
+    // para direcionar para pag cadastro fono
+    @GetMapping("/cadastrofono")
+    public String mostraCadastroFono(){
+        return "cadastroFono";    
     }
 }
