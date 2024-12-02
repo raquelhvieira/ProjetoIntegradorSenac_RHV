@@ -18,7 +18,7 @@ html {
     height: auto;
 }
 
-/* Botão de voltar */
+/* Botão Voltar */
 .btn-secondary {
     background-color: #e9ecef;
     color: #005953;
@@ -44,41 +44,37 @@ h2 {
     text-align: center;
 }
 
-/* Container da audiometria */
-.container-cadastro {
-    margin: 0 20px;
+/* Formulário */
+form {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-.audiometria-container {
-    background-color: #51a8a2;
-    margin: 0 10px;
-    padding: 15px;
-    border-radius: 10px;
-    margin-top: 20px;
+.table-container {
+    overflow-x: auto;
 }
 
-.inputs-group {
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    margin-top: 10px;
+/* Tabela */
+table {
+    background-color: white;
+    border-collapse: collapse;
 }
 
-.inputs-group label {
-    width: calc(100% / 7 - 10px);
+th {
+    background-color: #005953;
+    color: white;
+    font-weight: bold;
+}
+
+td,
+th {
+    padding: 8px;
     text-align: center;
-    font-size: 14px;
-    color: #333;
 }
 
-.inputs-group input {
-    width: calc(90% / 7 - 10px); /* Divisão dinâmica */
-    text-align: center;
+input {
     border: 1px solid #ccc;
     border-radius: 5px;
-}
-
-/* Botão Salvar */
-button[type="submit"] {
-    margin-top: 20px;
+    padding: 5px;
+    text-align: center;
 }
