@@ -22,4 +22,10 @@ public class EasyAudioController {
     public String mostraCadastroFono(){
         return "cadastroFono";    
     }
+    
+    // para direcionar para pag de audiometria
+    @GetMapping("/audiometria")
+    public String mostraAudiometria(){
+        return "audiometria";    
+    }
 }
