@@ -28,4 +28,10 @@ public class EasyAudioController {
     public String mostraAudiometria(){
         return "audiometria";    
     }
+    
+    // para direcionar para pag de comparação
+    @GetMapping("/comparacao")
+    public String mostraComparacao(){
+        return "comparacaoAudio";    
+    }
 }
