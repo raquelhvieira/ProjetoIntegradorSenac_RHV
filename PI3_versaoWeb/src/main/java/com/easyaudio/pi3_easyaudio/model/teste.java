@@ -3,6 +3,7 @@
 // aqui vou colocar os gets e stes que tinha antes, 
 //mas com o lombok não preciso escrever tudo, posso fazer bem mais resumido
 // abaixo vou escrever o que o professor fez na aula do dia 08/10/2024, +- 53min
+//RENOMEAR ARQUIVO!!!!!
 
 package com.easyaudio.pi3_easyaudio.model;
 
