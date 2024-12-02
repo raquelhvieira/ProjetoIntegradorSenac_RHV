@@ -15,7 +15,4 @@ public class EasyAudioController {
     public String mostraCadastroPaciente(){
         return "cadastroPaciente";    
     }
-    
-    
-
 }
