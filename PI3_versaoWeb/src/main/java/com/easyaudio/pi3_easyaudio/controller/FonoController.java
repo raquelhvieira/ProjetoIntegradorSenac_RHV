@@ -55,9 +55,10 @@ public class FonoController {
         return "redirect:/fonos";
     }
 
-    @GetMapping("/excluir/{id}")
-    public String excluirFono(@PathVariable Long id) {
-        fonoService.deleteById(id);
-        return "redirect:/fonos";
-    }
+    //VER AINDA/PESQUISAR
+    //@GetMapping("/excluir/{id}")
+    //public String excluirFono(@PathVariable Long id) {
+    //    fonoService.deleteById(id);
+    //    return "redirect:/fonos";
+    //}
 }

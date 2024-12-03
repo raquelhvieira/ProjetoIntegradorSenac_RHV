@@ -56,9 +56,10 @@ public class AudiometriaController {
         return "redirect:/audiometrias";
     }
 
-    @GetMapping("/excluir/{id}")
-    public String excluirAudiometria(@PathVariable Long id) {
-        audiometriaService.deleteById(id);
-        return "redirect:/audiometrias";
-    }
+    //VER AINDA/PESQUISAR
+    //@GetMapping("/excluir/{id}")
+    //public String excluirAudiometria(@PathVariable Long id) {
+    //    audiometriaService.deleteById(id);
+    //    return "redirect:/audiometrias";
+    //}
 }

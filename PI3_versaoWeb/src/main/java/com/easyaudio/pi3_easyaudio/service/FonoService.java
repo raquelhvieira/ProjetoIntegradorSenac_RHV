@@ -25,8 +25,9 @@ public class FonoService {
         return fonoRepository.save(fono);
     }
 
-    public void deleteById(Long id) {
-        fonoRepository.deleteById(id);
-    }
+    //VER AINDA
+    //public void deleteById(Long id) {
+    //    fonoRepository.deleteById(id);
+    //}
     
 }

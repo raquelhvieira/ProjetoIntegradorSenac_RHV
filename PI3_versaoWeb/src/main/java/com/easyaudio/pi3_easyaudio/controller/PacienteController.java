@@ -54,9 +54,10 @@ public class PacienteController {
         return "redirect:/pacientes";
     }
 
-    @GetMapping("/excluir/{id}")
-    public String excluirPaciente(@PathVariable Long id) {
-        pacienteService.deleteById(id);
-        return "redirect:/pacientes";
-    }
+    //VER AINDA/PESQUISAR
+    //@GetMapping("/excluir/{id}")
+    //public String excluirPaciente(@PathVariable Long id) {
+    //    pacienteService.deleteById(id);
+    //    return "redirect:/pacientes";
+    //}
 }

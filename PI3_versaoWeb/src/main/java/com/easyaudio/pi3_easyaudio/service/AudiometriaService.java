@@ -15,6 +15,11 @@ public class AudiometriaService {
     @Autowired
     private AudiometriaRepository audiometriaRepository;
 
+    // Método para buscar audiometrias de um paciente
+    public List<Audiometria> buscarAudiometriasPorPaciente(Long pacienteId) {
+        return audiometriaRepository.findByPacienteId(pacienteId);
+    }
+    
     public List<Audiometria> findAll() {
         return audiometriaRepository.findAll();
     }
@@ -27,8 +32,9 @@ public class AudiometriaService {
         return audiometriaRepository.save(audiometria);
     }
 
-    public void deleteById(Long id) {
-        audiometriaRepository.deleteById(id);
-    }
+    //VER AINDA
+    //public void deleteById(Long id) {
+    //    audiometriaRepository.deleteById(id);
+    //}
     
 }

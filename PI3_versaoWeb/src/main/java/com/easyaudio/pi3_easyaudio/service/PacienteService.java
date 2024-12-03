@@ -14,6 +14,16 @@ public class PacienteService {
     @Autowired
     private PacienteRepository pacienteRepository;
 
+    // Método para buscar paciente por CPF
+    public Paciente buscarPacientePorCpf(String cpf) {
+        return pacienteRepository.findByCpf(cpf);
+    }
+
+    // Método para buscar paciente por nome
+    public Paciente buscarPacientePorNome(String nome) {
+        return pacienteRepository.findByNome(nome);
+    }
+    
     public List<Paciente> findAll() {
         return pacienteRepository.findAll();
     }
@@ -26,8 +36,9 @@ public class PacienteService {
         return pacienteRepository.save(paciente);
     }
 
-    public void deleteById(Long id) {
-        pacienteRepository.deleteById(id);
-    }
+    //VER AINDA
+    //public void deleteById(Long id) {
+    //    pacienteRepository.deleteById(id);
+    //}
     
 }
