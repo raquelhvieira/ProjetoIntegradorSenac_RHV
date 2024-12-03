@@ -12,26 +12,26 @@ public class EasyAudioController {
     }
     
     // para direcionar para pág cadastro pct
-    @GetMapping("/cadastropaciente")
-    public String mostraCadastroPaciente(){
-        return "cadastroPaciente";    
-    }
+    //@GetMapping("/cadastropaciente")
+    //public String mostraCadastroPaciente(){
+    //    return "cadastroPaciente";    
+    //}
     
     // para direcionar para pag cadastro fono
-    @GetMapping("/cadastrofono")
-    public String mostraCadastroFono(){
-        return "cadastroFono";    
-    }
+    //@GetMapping("/cadastrofono")
+    //public String mostraCadastroFono(){
+    //    return "cadastroFono";    
+    //}
     
     // para direcionar para pag de audiometria
-    @GetMapping("/audiometria")
-    public String mostraAudiometria(){
-        return "audiometria";    
-    }
+   // @GetMapping("/audiometria")
+   // public String mostraAudiometria(){
+    //    return "audiometria";    
+    //}
     
     // para direcionar para pag de comparação
-    @GetMapping("/comparacao")
-    public String mostraComparacao(){
-        return "comparacaoAudio";    
-    }
+    //@GetMapping("/comparacao")
+    //public String mostraComparacao(){
+    //    return "comparacaoAudio";    
+    //}
 }
